@@ -1,3 +1,9 @@
+What is Cursor AI IDE?
+Cursor is an AI-powered desktop code editor built on Visual Studio Code (VS Code). It integrates advanced AI features directly into the coding environment to help developers write, understand, and refactor code efficiently.
+
+What is Replit AI IDE?
+Replit is a cloud-based AI coding platform where users can write, run, test, and deploy applications directly from a web browser without installing software.
+
 Major Differences
 
 Cursor	Replit
@@ -28,7 +34,7 @@ Advantages
 No installation required; runs directly in a web browser.
 Supports 50+ programming languages.
 Easy real-time collaboration with teammates.
-Cloud-based storage—projects are saved online.
+Cloud-based storageâ€”projects are saved online.
 One-click deployment for web applications.
 
 Disadvantages
@@ -37,3 +43,27 @@ Performance depends on internet speed.
 Free plan has limited resources and AI usage.
 Less suitable for very large or enterprise-scale projects.
 Fewer customization options compared to desktop IDEs like VS Code/Cursor.
+
+Keywords for Cursor AI IDE
+AI Code Editor
+VS Code-based IDE
+AI Coding Assistant
+Code Autocomplete
+AI Chat
+Smart Code Completion
+Bug Detection
+Code Refactoring
+Multi-file Context
+Code Generation
+
+Keywords for Replit AI IDE
+Cloud IDE
+Browser-based IDE
+AI Coding Assistant
+Replit AI
+Code Generation
+Online Code Editor
+Real-time Collaboration
+One-click Deployment
+Cloud Development
+Version Control
