@@ -1,4 +1,5 @@
 <img width="1600" height="865" alt="image" src="https://github.com/user-attachments/assets/ba01ed2b-8213-4c73-8150-242be326ff2b" />
+
 # GitHub Integration using VS Code
 
 ## 📌 Objective
