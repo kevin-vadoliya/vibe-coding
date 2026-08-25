@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diploma 5th Sem - Vibe Coding Project</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --accent-color: #38bdf8;
+            --accent-gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+            --border-color: #334155;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: var(--card-bg);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #94a3b8;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent-color);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 25px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        ul li::before {
+            content: "⚡";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+
+        .code-box {
+            background: #090d16;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Fira Code', monospace;
+            font-size: 0.9rem;
+            color: #38bdf8;
+            overflow-x: auto;
+            border: 1px solid var(--border-color);
+            margin-top: 10px;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent-gradient);
+            color: #0f172a;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <span class="badge">Diploma 5th Semester Project</span>
+            <h1>Vibe Coding Hub</h1>
+            <p>Building modern web apps with speed, creativity, and clean AI collaboration.</p>
+        </header>
+
+        <!-- About Project -->
+        <section>
+            <h2>Project Overview</h2>
+            <p>Welcome to my 5th Semester Diploma web development project. This website showcases modern styling, responsive layouts, and clean user experience designed using the concept of <strong>Vibe Coding</strong>—focusing on intuitive design, smooth workflows, and rapid prototyping.</p>
+        </section>
+
+        <!-- Tech Stack -->
+        <section>
+            <h2>Tech Stack & Tools</h2>
+            <ul>
+                <li>HTML5 (Semantic Structure)</li>
+                <li>CSS3 (Flexbox, Grid & Modern Styling Variables)</li>
+                <li>Responsive Design for Mobile & Desktop</li>
+                <li>AI Collaboration & Rapid Iteration</li>
+            </ul>
+        </section>
+
+        <!-- Sample Code Snippet -->
+        <section>
+            <h2>Vibe Code Snippet</h2>
+            <p>Here is a quick snippet highlighting the styling approach:</p>
+            <div class="code-box">
+                body {<br>
+                &nbsp;&nbsp;background-color: #0f172a;<br>
+                &nbsp;&nbsp;color: #f8fafc;<br>
+                &nbsp;&nbsp;font-family: 'Inter', sans-serif;<br>
+                }
+            </div>
+            <div class="btn-container">
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Details</h2>
+            <p><strong>Student Name:</strong>Kevin Vadoliya</p>
+            <p><strong>Department:</strong> Computer Science & Engineering (5th Sem)</p>
+            <p><strong>College:</strong>Sltiet</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Vibe Coding Project. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
